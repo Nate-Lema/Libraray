@@ -1,0 +1,217 @@
+{
+  "books": [
+    {
+      "id": "B001",
+      "title": "Understanding Algorithms",
+      "genre": "Education",
+      "category": "Computer Science",
+      "authorIDs": [
+        "A002",
+        "A003",
+        "A001"
+      ],
+      "publisherId": "P001"
+    },
+    {
+      "id": "B002",
+      "title": "The Art of Programming",
+      "genre": "Technology",
+      "category": "Programming",
+      "authorIDs": [
+        "A003"
+      ],
+      "publisherId": "P001"
+    },
+    {
+      "id": "b5yxcho5diowg5hjll0y",
+      "title": "React Native ",
+      "genre": "Education",
+      "category": "Programming",
+      "authorIDs": [
+        "A002"
+      ],
+      "publisherId": "P002"
+    },
+    {
+      "id": "icpetvxvd3unjv6y2x15",
+      "title": "React",
+      "genre": "Education",
+      "category": "Programming",
+      "authorIDs": [
+        "A002",
+        "A001",
+        "A003"
+      ],
+      "publisherId": "P002"
+    }
+  ],
+  "authors": [
+    {
+      "id": "A001",
+      "name": "John Doe",
+      "phone": "123-456-7890",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "A002",
+      "name": "Jane Smith",
+      "phone": "234-567-8901",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": "A003",
+      "name": "Emily Johnson",
+      "phone": "345-678-9012",
+      "email": "emily.johnson@example.com"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "P001",
+      "name": "TechBooks Publishing",
+      "phone": "456-789-0123",
+      "email": "contact@techbookspub.com",
+      "address": "123 Tech St, Silicon Valley, CA"
+    },
+    {
+      "id": "P002",
+      "name": "CodeWorld Publishers",
+      "phone": "567-890-1234",
+      "email": "info@codeworldpub.com",
+      "address": "234 Code Ave, Programmer City, TX"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "C001",
+      "bookId": "B001",
+      "numberOfCopies": 10,
+      "availableCopies": 7
+    },
+    {
+      "id": "C002",
+      "bookId": "B002",
+      "numberOfCopies": 5,
+      "availableCopies": 5
+    },
+    {
+      "id": "53pz0rq5rgjxbkr6a54a",
+      "bookId": "b5yxcho5diowg5hjll0y",
+      "numberOfCopies": 10,
+      "availableCopies": 10
+    },
+    {
+      "id": "n5ufgr66qilimrbiig8h",
+      "bookId": null,
+      "numberOfCopies": 10,
+      "availableCopies": 10
+    },
+    {
+      "id": "6pace8mqop5wnfy6w542",
+      "bookId": "eetzgmloj02vctifunqk",
+      "numberOfCopies": 10,
+      "availableCopies": 10
+    },
+    {
+      "id": "pfk6evyrof4xpnchklbx",
+      "bookId": "icpetvxvd3unjv6y2x15",
+      "numberOfCopies": 10,
+      "availableCopies": 8
+    },
+    {
+      "id": "907vtkzzdbty2hcgozic",
+      "bookId": null,
+      "numberOfCopies": 10,
+      "availableCopies": 10
+    }
+  ],
+  "members": [
+    {
+      "id": "M001",
+      "residentID": "S1001",
+      "firstname": "Alice",
+      "lastname": "Green",
+      "address": "789 Library Ln, Education Town, MA",
+      "phone": "678-901-2345",
+      "email": "alice.green@example.com"
+    },
+    {
+      "id": "M002",
+      "residentID": "S1002",
+      "firstname": "Mercy",
+      "lastname": "Getachew",
+      "address": "789 Library Ln, Education Town, MA",
+      "phone": "678-901-2345",
+      "email": "mercy.green@example.com"
+    },
+    {
+      "id": "0hdjx040zvcuaxbpvx94",
+      "residentID": "S1003",
+      "firstname": "Natnael",
+      "lastname": "Lema",
+      "address": "1000 N 4th Street Fairfield IO",
+      "phone": "301-775-2956",
+      "email": "Nlema@miu.edu"
+    },
+    {
+      "id": "aiz3ze6fxdo7klcbr2sd",
+      "residentID": "S1004",
+      "firstname": "Henok",
+      "lastname": "Lema",
+      "address": "4304 Emden street silver spring",
+      "phone": "301-449-0099",
+      "email": "Hlema@miu.edu"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T001",
+      "bookId": "B001",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-01",
+      "returnedDate": "2024-05-15"
+    },
+    {
+      "id": "l6fkigv3wukt5uns7xv4",
+      "bookId": "B002",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": "2024-05-21"
+    },
+    {
+      "id": "oelfyk5rbcrfz7j1ha3k",
+      "bookId": "B001",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": "2024-05-21"
+    },
+    {
+      "id": "1xiexrk2ts4l3q3vvpkq",
+      "bookId": "icpetvxvd3unjv6y2x15",
+      "memberId": "0hdjx040zvcuaxbpvx94",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": ""
+    },
+    {
+      "id": "ktxw0zfaog9u8f15bu19",
+      "bookId": "icpetvxvd3unjv6y2x15",
+      "memberId": "aiz3ze6fxdo7klcbr2sd",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": ""
+    },
+    {
+      "id": "dy1h2p1sn6w6y378cot8",
+      "bookId": "B001",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-22",
+      "returnedDate": "2024-05-22"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Peter",
+      "email": "peter@miu.edu"
+    }
+  ]
+}

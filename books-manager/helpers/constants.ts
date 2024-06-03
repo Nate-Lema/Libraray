@@ -1,0 +1,2 @@
+const LOCAL_STORAGE_KEY = "cs550-2024-05-15"
+export default  LOCAL_STORAGE_KEY
