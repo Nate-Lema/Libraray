@@ -51,11 +51,14 @@ This project is a React Native application for managing a library. It utilizes `
    git clone https://github.com/Nate-Lema/Libraray
    cd Libraray
 2. **Install dependencies**:
+    ```bash
    npm install
    npm install -g json-server
-   json-server --watch db.json --port port #
-3 **Install dependencies**:
-   npm start
+3 **Run Application**:
+    ```bash
+ json-server --watch db.json --port port #
+ npm start
+   
 
 
 
