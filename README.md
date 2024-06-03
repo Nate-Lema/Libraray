@@ -56,7 +56,9 @@ This project is a React Native application for managing a library. It utilizes `
    npm install -g json-server
 3. **Run Application**:
     ```bash
+    cd server
     json-server --watch db.json --port 3002
+    cd book-manager
     npm start
    
 
