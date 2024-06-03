@@ -54,7 +54,7 @@ This project is a React Native application for managing a library. It utilizes `
     ```bash
    npm install
    npm install -g json-server
-3 **Run Application**:
+3. **Run Application**:
     ```bash
     json-server --watch db.json --port port #
     npm start
