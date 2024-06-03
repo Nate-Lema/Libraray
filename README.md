@@ -48,8 +48,8 @@ This project is a React Native application for managing a library. It utilizes `
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/library-management-app.git
-   cd library-management-app
+   git clone https://github.com/Nate-Lema/Libraray
+   cd Libraray
 2. **Install dependencies**:
    npm install
    npm install -g json-server
